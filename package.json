@@ -1,5 +1,5 @@
 {
-  "name": "practice",
+  "name": "react_practice",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,10 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "practice/node_modules/.bin/react-scripts start",
-    "build": "practice/node_modules/.bin/react-scripts build",
-    "test": "practice/node_modules/.bin/react-scripts test",
-    "eject": "practice/node_modules/.bin/react-scripts eject"
+    "start": "./node_modules/.bin/react-scripts start",
+    "build": "./node_modules/.bin/react-scripts build",
+    "test": "./node_modules/.bin/react-scripts test",
+    "eject": "./node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
