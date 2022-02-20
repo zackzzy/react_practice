@@ -4,42 +4,36 @@ import Nav from './Nav';
 import Home from './Home';
 import StateComponent from './StateComponent';
 import ComponentLife from './ComponentLife';
+import IfDemo from "./IfDemo";
+import KeyDemo from "./KeyDemo";
+import FormDemo from "./FormDemo";
+
 
 class App extends React.Component {
- 
-  render(){
-    const nav1 = ["Home","Study","Video","Profile"]
-    const nav2 = ["Test","111","222","333"]
-    return (
-      <div>
-        <Home/>
-        <Nav nav = {nav1} title="Navigation"/>
-        <Nav nav = {nav2} title="This is a test"/>
-        <StateComponent/>
-        <ComponentLife/>
-      </div>
 
-    )
+    render() {
+        const nav1 = ["Home", "Study", "Video", "Profile"]
+        const nav2 = ["Test", "111", "222", "333"]
+        return (
+            <div>
+                <Home/>
+                <Nav nav={nav1} title="Navigation"/>
+                <Nav nav={nav2} title="This is a test"/>
+                <StateComponent/>
+                <ComponentLife/>
+                <IfDemo/>
+                <KeyDemo/>
+                <FormDemo/>
+            </div>
+
+        )
 
 
-  }
+    }
 
 }
 
 export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // const isLoading = true
@@ -59,9 +53,6 @@ export default App
 
 //     </h1>
 //   )
-  
-
-
 
 
 //   // return (
